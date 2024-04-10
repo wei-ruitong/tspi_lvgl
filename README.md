@@ -791,7 +791,7 @@ lv_obj_center(lottie);
 
 > 6、运行程序时出现错误，stdc++库版本出现下面问题。
 
-![image-20240410161748542](./assets/image-20240410161748542.png)
+![image-20240410161748542](./images/error.png)
 
 ```shell
 # 进入ubuntu的/usr/aarch64-linux-gnu/lib目录下
@@ -814,4 +814,4 @@ cd root
 # 下面的动画是会动的
 ```
 
-<img src="./assets/fb1d099c81444081b2cecf37aee4581.jpg" alt="fb1d099c81444081b2cecf37aee4581" style="zoom:25%;" />
+<img src="./images/result.jpg" alt="fb1d099c81444081b2cecf37aee4581" style="zoom:25%;" />
