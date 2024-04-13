@@ -7,8 +7,7 @@
 |   物料   |     参数     |                             链接                             |
 | :------: | :----------: | :----------------------------------------------------------: |
 | 触摸屏幕 | 40pin 、MIPI | [屏幕链接](https://item.taobao.com/item.htm?id=602182011852&spm=a1z10.3-c-s.w4002-22343514690.13.64367efeFqZiog&skuId=4821755299220) |
-|          |              |                                                              |
-|          |              |                                                              |
+
 
 #### 修改设备树
 
@@ -97,7 +96,7 @@
 		disp_timings1: display-timings {
 			native-mode = <&dsi1_timing0>;
 			dsi1_timing0: timing0 {
-				clock-frequency = <33000000>;
+				clock-frequency = <33500000>;
 				hactive = <480>;   //与 LCDTiming.LCDH 对应
 				vactive = <854>;   //与 LCDTiming.LCDV 对应
 				hfront-porch = <8>;   //与 LCDTiming.HFPD 对应 
@@ -109,7 +108,7 @@
 				hsync-active = <0>;
 				vsync-active = <0>;
 				de-active = <0>;
-				pixelclk-active = <0>;
+				pixelclk-active = <1>;
 				swap-rb = <0>;
 				swap-rg = <0>;
 				swap-gb = <0>;
